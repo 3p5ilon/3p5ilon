@@ -4,6 +4,7 @@ class Epsilon:
         self.name="Ɛpsilon"
         self.site="3p5ilon.github.io"
         self.system=("macOS","Arch Linux")
+        self.editor=("Neovim","Zed","VS Code")
         self.lang=("Python","TypeScript","JavaScript","C++","C")
         self.stack={
             "ml":("PyTorch","Transformers"),
