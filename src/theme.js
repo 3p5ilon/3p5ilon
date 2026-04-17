@@ -1,0 +1,69 @@
+module.exports = {
+  // Theme: Catppuccin Mocha
+  theme: {
+    bg: "#1e1e2e", // terminal bg
+    border: "#313244", // card border
+
+    palette: {
+      text: "#cdd6f4",
+      subtext: "#6c7086",
+      sep: "#45475a",
+
+      red: "#f38ba8",
+      peach: "#fab387",
+      yellow: "#f9e2af",
+      green: "#a6e3a1",
+      teal: "#94e2d5",
+      sky: "#89dceb",
+      blue: "#89b4fa",
+      mauve: "#cba6f7",
+      pink: "#f5c2e7",
+      lavender: "#b4befe",
+    },
+
+    swatches: {
+      normal: [
+        "#454758",
+        "#E590A8",
+        "#B3E1A7",
+        "#F5E3B5",
+        "#92B3F4",
+        "#EDC4E5",
+        "#A5E0D5",
+        "#A7ADC6",
+      ],
+      bright: [
+        "#595B6E",
+        "#E37E99",
+        "#9BD692",
+        "#E7D499",
+        "#7FA7F6",
+        "#E8B1DB",
+        "#87D4CA",
+        "#BBC2DC",
+      ],
+    },
+  },
+
+  // Font
+  font: {
+    import:
+      "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap",
+    family:
+      "'JetBrainsMono Nerd Font', 'JetBrains Mono', 'Courier New', monospace",
+    size: 13,
+    keyWeight: 600, // Specific font weight for info keys
+    charRatio: 0.602,
+  },
+
+  // Layout
+  layout: {
+    width: 820,
+    paddingLeft: 32,
+    paddingRight: 32,
+    paddingTop: 36,
+    paddingBottom: 36,
+    columnGap: 56, // Space between ascii/img and columns
+    lineHeight: 19, // Vertical space between text entries
+  },
+};
